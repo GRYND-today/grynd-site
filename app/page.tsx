@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "GRYND",
+  icons: "/grynd-logo.png",
+};
 
 export default function Home() {
   return (
